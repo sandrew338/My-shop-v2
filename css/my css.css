@@ -421,4 +421,8 @@ height: 40px;
       .coll6s12 .pages{
      left:10px;
       }
-    
+      #modal-1{
+        font-size: large;
+      }
+      .material-icons i{
+        font-size: 1rem !important;}
