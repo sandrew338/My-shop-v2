@@ -35,9 +35,10 @@ padding: 10px 0px 15px 0px;
 /* ---------------------------------------- */
 
 .page-footer {
-  border-top: solid #4d967c 2px;
-color:rgba(122, 36, 36, 0.616);
-background-color:rgb(4, 34, 9);
+  border-top: solid #4d967c 4px;
+color: rgb(66, 89, 90);
+
+background: #1f4037;  /* fallback for old browsers */       background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */       background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* ---------------------------------------- */
 .card {
@@ -193,7 +194,7 @@ box-shadow:blueviolet;
       }
       .contacts-title{
         text-align: center;
-        margin:25px ;
+        margin:15px ;
        }
        .contacts-phone{
         display: flex;
@@ -209,13 +210,14 @@ box-shadow:blueviolet;
         color: white;
        }
 .con_container{
-         background: url(../img/images1.jfif);
+   background: rgb(176, 251, 176);
+         ;
          background-size: cover;
          padding: 10 px 60px 60px 60px;
        }
        .container{
-       text-align: center;
-       margin-bottom:50 px;
+    
+       margin-bottom:30px;
       }
 .con_container .btn:hover{
         background-color:#000000;
@@ -282,9 +284,10 @@ right: 50px;
     .contacts-subscribe{
       display: flex;
       justify-content: center;
-      background-color: rgb(0, 109, 183);
+     
+      
       padding: 40px;
-      color: white;
+      background: #17c597;
     }
     .contacts-subscribe h4{
       margin: 20px 0;
@@ -297,18 +300,18 @@ right: 50px;
     
     .contacts-subscribe input[type=email]{
       min-width: 250px;
-        border: 1px solid white;
+        border: 1px solid rgb(66, 89, 90);
         margin: 0;
-        color: white;
+        color: rgb(66, 89, 90);
         padding: 0 15px;
-        box-shadow: white;
+        box-shadow: rgb(66, 89, 90);
     }
     
     .contacts-subscribe input[type=submit]{
       height: 47px;
         display: block;
-        border: 1px solid red;
-        background: red;
+        border: 1px solid black;
+        background: rgb(66, 89, 90);
         box-shadow: none;
         opacity: 0.9;
     }
@@ -394,10 +397,6 @@ width: 100%;
    
     align-items: left;
   }
-  .pages{
-    width: max-content;
-    margin-left:0%;
-  }
 .row{ max-width: 100%; 
     position: relative;
     
@@ -418,11 +417,25 @@ height: 40px;
 /*     .cart-input{
       display: none;
       } */
-      .coll6s12 .pages{
-     left:10px;
+      .coll6s12 {
+         margin :-100px; 
+        margin-left :-150px;
       }
       #modal-1{
         font-size: large;
       }
       .material-icons i{
         font-size: 1rem !important;}
+       .colFl4{
+        margin :-100px;
+        margin-left :650px;
+       }
+        .pop{
+         margin-left: 10px;
+         width: 50px;
+         height: 100px;
+       } 
+        .contact-phone{
+         padding-left: -10px;
+         justify-content: left;
+       } 
